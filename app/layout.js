@@ -1,9 +1,18 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import { IBM_Plex_Sans } from 'next/font/google';
 import "./globals.css";
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+});
+
+const ibmPlexSans = IBM_Plex_Sans({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'], // Specify desired weights
+  variable: '--font-ibm-plex-sans', // Optional: define a CSS variable
 });
 
 const geistMono = Geist_Mono({
@@ -20,9 +29,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={ibmPlexSans.className}
       >
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
