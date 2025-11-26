@@ -51,11 +51,11 @@ export default function Footer() {
           </ul>
 
           <h2 className="text-xl font-bold mt-4">Policies</h2>
-          <ul className="space-y-2 text-white/90">
-            <Link href="/privacy"><li className="hover:text-orange-500 cursor-pointer">Privacy Policy</li></Link>
-            <Link href="/terms&conditions"><li className="hover:text-orange-500 cursor-pointer">Terms & Conditions</li></Link>
-            <Link href="/refund"><li className="hover:text-orange-500 cursor-pointer">Refund Policy</li></Link>
-          </ul>
+          
+            <Link href="/privacy"><li className="hover:text-orange-500 list-none cursor-pointer">Privacy Policy</li></Link>
+            <Link href="/terms&conditions"><li className="hover:text-orange-500 list-none cursor-pointer">Terms & Conditions</li></Link>
+            <Link href="/refund"><li className="hover:text-orange-500 list-none cursor-pointer">Refund Policy</li></Link>
+          
         </div>
 
         {/* 3️⃣ Embedded Map */}
