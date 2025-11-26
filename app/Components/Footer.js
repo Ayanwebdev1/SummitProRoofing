@@ -14,11 +14,34 @@ export default function Footer() {
           <h1 className="text-[25px] font-bold  text-white">SUMMITPRO<span className="text-[#e85b30]">ROOFING</span></h1>
         </div></Link>
           <p className="text-white/90">Reliable roofing solutions for homes & businesses.</p>
-          <div className="flex gap-4 mt-8">
-            <a href="https://www.facebook.com/"><Facebook size={24} className="hover:text-orange-500 cursor-pointer" /></a>
-            <a href="https://www.twitter.com/"><Twitter size={24} className="hover:text-orange-500 cursor-pointer" /></a>
-            <a href="https://www.instagram.com/"><Instagram size={24} className="hover:text-orange-500 cursor-pointer" /></a>
-          </div>
+         <div className="flex gap-4 mt-8">
+  <a 
+    href="https://www.facebook.com/" 
+    aria-label="Facebook SummitProRoofing"
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    <Facebook size={24} className="hover:text-orange-500 cursor-pointer" />
+  </a>
+
+  <a 
+    href="https://www.twitter.com/" 
+    aria-label="Twitter SummitProRoofing"
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    <Twitter size={24} className="hover:text-orange-500 cursor-pointer" />
+  </a>
+
+  <a 
+    href="https://www.instagram.com/" 
+    aria-label="Instagram SummitProRoofing"
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    <Instagram size={24} className="hover:text-orange-500 cursor-pointer" />
+  </a>
+</div>
         </div>
 
         {/* 1️⃣ Contact Info */}
