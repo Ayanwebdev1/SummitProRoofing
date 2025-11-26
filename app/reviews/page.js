@@ -1,8 +1,11 @@
 import React from 'react'
+import Reviews from '../Components/Reviews'
 
 const page = () => {
   return (
-    <div>page</div>
+    <>
+    <Reviews />
+    </>
   )
 }
 

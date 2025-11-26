@@ -38,7 +38,7 @@ export default function RoofingForm() {
                     onSubmit={handleSubmit}
                     className="flex-1 p-6 w-[40vw] rounded-2xl box-border space-y-4 mt-6 mb-8 rounded-r-none border border-gray-200"
                 >
-                    <h1 className='text-[#004099] text-[30px] font-extrabold tracking-tighter mb-0'>GET A FREE ESTIMATE</h1>
+                    <h1 className='text-[#004099] text-[30px] font-extrabold tracking-tighter mb-0'>CONTACT US</h1>
                     <p className='text-gray-500 mt-2'>Fill out the form below and our team will get back to you within 24 hours.</p>
                     {/* Name */}
                     <div className="flex flex-col">
