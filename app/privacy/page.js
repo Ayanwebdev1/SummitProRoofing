@@ -10,3 +10,7 @@ const page = () => {
 }
 
 export default page
+export const metadata = {
+  title: "Privacy Policy",
+  description: "This is Privacy Policy page",
+};

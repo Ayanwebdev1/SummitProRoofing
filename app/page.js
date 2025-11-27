@@ -9,3 +9,7 @@ export default function Home() {
     </>
   );
 }
+export const metadata = {
+  title: "Home - SummitProRoofing",
+  description: "This is Home page",
+};

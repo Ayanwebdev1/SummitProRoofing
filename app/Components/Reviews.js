@@ -22,7 +22,7 @@ const Reviews = () => {
 </section>
                 <section className='mt-[50px]'>
                     <h1 className='text-[#004099] text-[35px] font-extrabold tracking-tighter text-center '>The results we’ve delivered for our valued homeowners. </h1>
-                    <p className='w-[60vw] text-[20px] text-gray-500 m-auto text-center mt-3'>We focus on quality, durability, and honest craftsmanship. Every project below reflects the care, attention, and reliability our clients expect from us. Real homes, real problems, and real solutions delivered with precision.</p>
+                    <p className='w-[90vw] md:w-[60vw] text-[20px] text-gray-500 m-auto text-center mt-3'>We focus on quality, durability, and honest craftsmanship. Every project below reflects the care, attention, and reliability our clients expect from us. Real homes, real problems, and real solutions delivered with precision.</p>
                     <Beforeaftergallery />
                 </section>
                 <section>
@@ -31,7 +31,7 @@ const Reviews = () => {
 
                 <section className='mt-[50px] mb-10'>
                     <h1 className='text-[#004099] text-[35px] font-extrabold tracking-tighter text-center'>Ready to Fix or Upgrade Your Roof?</h1>
-                    <p className='w-[60vw] text-[20px] text-gray-500 m-auto text-center mt-2'>Get expert help from a team that delivers reliable, long-lasting roofing solutions. Whether it’s a repair or a full replacement, we’re here to make the process simple and stress-free.</p>
+                    <p className='w-[90vw] md:w-[60vw] text-[20px] text-gray-500 m-auto text-center mt-2'>Get expert help from a team that delivers reliable, long-lasting roofing solutions. Whether it’s a repair or a full replacement, we’re here to make the process simple and stress-free.</p>
                      <div className='flex justify-center mt-5'>
                     <Link href="/getaquote"><button className='px-9 py-4 bg-orange-500 cursor-pointer text-white font-semibold hover:bg-orange-600'>GET A FREE QUOTE</button></Link>
                 </div>

@@ -17,14 +17,14 @@ const About = () => {
         />
 
         {/* Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-blue-950/30 to-slate-950/80"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-blue-950/40 to-slate-950/80"></div>
 
         {/* Text Content */}
         <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-6 ">
           <h1 className="text-white text-4xl md:text-6xl font-extrabold tracking-tighter">
             BUILT ON TRUST. DRIVEN BY QUALITY.
           </h1>
-          <p className="text-white mt-4 text-lg md:text-xl max-w-3xl ">
+          <p className="text-white w-[90vw] mt-4 text-lg md:text-xl max-w-3xl ">
             Delivering roofing solutions homeowners never have to worry about — built with integrity, guided by transparency, and backed by workmanship that stands strong through every season. Your home deserves nothing less.
           </p>
           <div>
@@ -142,7 +142,7 @@ const About = () => {
 
       <section>
         <h1 className='capitalize mt-[50px] text-[35px] text-center font-extrabold tracking-tight text-[#004099]'>Let our customers speak for us</h1>
-        <p className='text-center w-[60%] mt-3 m-auto'>We don’t just claim to do great work — our homeowners do. From timely service to honest advice and roofs that last for decades, our customers share their real experiences, their stories, and their satisfaction. Every testimonial is proof that we treat every home like our own, and every client like family. Hear it from those who trusted us and never looked back.</p>
+        <p className='text-center w-[90vw] md:w-[60%] mt-3 m-auto'>We don’t just claim to do great work — our homeowners do. From timely service to honest advice and roofs that last for decades, our customers share their real experiences, their stories, and their satisfaction. Every testimonial is proof that we treat every home like our own, and every client like family. Hear it from those who trusted us and never looked back.</p>
 
         <div className="reviwcards flex-wrap flex-col md:flex-row flex justify-center mt-[50px] gap-5 mb-5">
 
@@ -181,7 +181,7 @@ const About = () => {
 
       <section className='mb-10'>
         <h1 className='capitalize mt-[80px] text-[35px] text-center font-extrabold tracking-tight text-[#004099]'>Your Home Deserves a Roof You Can Trust</h1>
-        <p className='text-center w-[60%] text-[20px] mt-3 m-auto'>Every shingle, every nail, every detail matters — because we treat your home like it’s our own. Let our team protect your family and your peace of mind with a free inspection today.</p>
+        <p className='text-center w-[90vw] md:w-[60%] text-[20px] mt-3 m-auto'>Every shingle, every nail, every detail matters — because we treat your home like it’s our own. Let our team protect your family and your peace of mind with a free inspection today.</p>
         <div className='flex justify-center mt-5'>
           <Link href="/getaquote"><button className='px-9 py-4 bg-orange-500 font-semibold text-white cursor-pointer hover:bg-orange-600'>Secure My Home Now</button></Link>
         </div>

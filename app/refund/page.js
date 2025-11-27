@@ -10,3 +10,7 @@ const page = () => {
 }
 
 export default page
+export const metadata = {
+  title: "Refund Policy",
+  description: "This is Refund policy page",
+};

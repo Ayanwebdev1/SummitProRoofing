@@ -12,18 +12,18 @@ const Projects = () => {
         <>
             <header className='mt-[50px]'>
                 <h1 className='text-[#004099] text-[35px] font-extrabold tracking-tighter text-center'>Our Work, Your Peace of Mind</h1>
-                <p className='w-[60vw] text-[20px] text-gray-500 m-auto text-center mt-2'>A collection of the roofs we’ve repaired, replaced, and restored — each one crafted with the same care we’d give our own home.</p>
+                <p className='w-[90vw] md:w-[60vw] text-[20px] text-gray-500 m-auto text-center mt-2'>A collection of the roofs we’ve repaired, replaced, and restored — each one crafted with the same care we’d give our own home.</p>
             </header>
 
             <section className='mt-[50px]'>
                 <h1 className='text-[#004099] text-[35px] font-extrabold tracking-tighter text-center'>Our Projects</h1>
-                <p className='w-[60vw] text-[20px] text-gray-500 m-auto text-center mt-2'>Browse our recent roofing work across Denver — every project reflects our commitment to durability, safety, and craftsmanship.</p>
+                <p className='w-[90vw] md:w-[60vw] text-[20px] text-gray-500 m-auto text-center mt-2'>Browse our recent roofing work across Denver — every project reflects our commitment to durability, safety, and craftsmanship.</p>
                 <Beforeaftergallery />
             </section>
 
             <section className='mt-[50px]'>
                 <h1 className='text-[#004099] text-[35px] font-extrabold tracking-tighter text-center'>Ongoing Projects</h1>
-                <p className='w-[60vw] text-[20px] text-gray-500 m-auto text-center mt-2'>From storm repairs to full replacements, here’s a glimpse of the homes we’re currently restoring with care, precision, and transparency.</p>
+                <p className='w-[90vw] md:w-[60vw] text-[20px] text-gray-500 m-auto text-center mt-2'>From storm repairs to full replacements, here’s a glimpse of the homes we’re currently restoring with care, precision, and transparency.</p>
                 <Scrollgallery />
             </section>
 
@@ -64,7 +64,7 @@ const Projects = () => {
 
             <section className='mt-[50px]'>
                 <h1 className='text-[#004099] text-[35px] font-extrabold tracking-tighter text-center'>Hear From Our Happy Homeowners</h1>
-                <p className='w-[60vw] text-[20px] text-gray-500 m-auto text-center mt-2'>Nothing speaks louder than the words of those we’ve served. Our clients share their experiences working with Summit Pro Roofing — from initial consultation to the final nail — highlighting our professionalism, quality, and dedication to protecting their homes. These testimonials reflect the trust and satisfaction we aim to deliver on every project.</p>
+                <p className='w-[90vw] md:w-[60vw] text-[20px] text-gray-500 m-auto text-center mt-2'>Nothing speaks louder than the words of those we’ve served. Our clients share their experiences working with Summit Pro Roofing — from initial consultation to the final nail — highlighting our professionalism, quality, and dedication to protecting their homes. These testimonials reflect the trust and satisfaction we aim to deliver on every project.</p>
 
                 <div className="reviwcards flex-wrap flex-col md:flex-row flex justify-center mt-[50px] gap-5 mb-5">
                 
@@ -98,9 +98,9 @@ const Projects = () => {
 
             <section className='mt-[50px]'>
                 <h1 className='text-[#004099] text-[35px] font-extrabold tracking-tighter text-center'>Ready to Upgrade Your Roof?</h1>
-                <p className='w-[60vw] text-[20px] text-gray-500 m-auto text-center mt-2'>Don’t wait until small issues turn into big problems. Our skilled team at Summit Pro Roofing is ready to assess your home, provide expert solutions, and deliver a roof that protects your family and adds lasting value. Let’s make your next roofing project stress-free and reliable.</p>
+                <p className='w-[90vw] md:w-[60vw] text-[20px] text-gray-500 m-auto text-center mt-2'>Don’t wait until small issues turn into big problems. Our skilled team at Summit Pro Roofing is ready to assess your home, provide expert solutions, and deliver a roof that protects your family and adds lasting value. Let’s make your next roofing project stress-free and reliable.</p>
                 <div className='flex justify-center gap-5 mb-10'>
-                    <a className='px-9 py-4 text-white font-semibold bg-orange-500 mt-5 cursor-pointer hover:bg-orange-600 ' href="tel:(123) 456-7890 ">Call Now</a>
+                    <a className='px-5 py-4 md:px-9 md:py-4 text-white font-semibold bg-orange-500 mt-5 cursor-pointer hover:bg-orange-600 ' href="tel:(123) 456-7890 ">Call Now</a>
 
                     <Link href="/getaquote"><button className='px-9 py-4 bg-[#004099] text-white font-semibold mt-5 cursor-pointer hover:bg-[#013781] '>Get A Free Estimate</button></Link>
                 </div>

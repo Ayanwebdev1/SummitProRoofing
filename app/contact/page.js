@@ -11,3 +11,8 @@ const page = () => {
 }
 
 export default page
+
+export const metadata = {
+  title: "Contact Us",
+  description: "This is Contact Us page",
+};

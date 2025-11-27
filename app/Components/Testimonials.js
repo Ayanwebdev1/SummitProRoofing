@@ -64,7 +64,7 @@ const Testimonials = () => {
                     </div>
 
                 </div>
-                <h1 className='text-center text-[20px] w-[60vw] text-white md:w-[60vw] m-auto mt-3'>These are just a few stories — we’ve helped dozens more families protect their homes</h1>
+                <h1 className='text-center text-[20px] w-[90vw] text-white md:w-[60vw]  m-auto mt-3'>These are just a few stories — we’ve helped dozens more families protect their homes</h1>
                 <div className='flex justify-center mt-5'>
                     <Link href="/getaquote"><button className='px-9 py-4 bg-orange-500 cursor-pointer text-white font-semibold hover:bg-orange-600'>GET A FREE QUOTE</button></Link>
                 </div>

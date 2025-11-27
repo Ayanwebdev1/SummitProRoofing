@@ -32,11 +32,11 @@ export default function RoofingForm() {
     return (
         <>
             <ToastContainer />
-            <div className='flex w-[90vw] m-auto mb-10'>
+            <div className='flex w-[90vw] m-auto mb-10 md:flex-row flex-col'>
                 <form
                     ref={Formref}
                     onSubmit={handleSubmit}
-                    className="flex-1 p-6 w-[40vw] rounded-2xl box-border space-y-4 mt-6 mb-8 rounded-r-none border border-gray-200"
+                    className="flex-1 p-6 md:w-[40vw] rounded-2xl box-border space-y-4 mt-6 mb-8 rounded-r-none border border-gray-200"
                 >
                     <h1 className='text-[#004099] text-[30px] font-extrabold tracking-tighter mb-0'>CONTACT US</h1>
                     <p className='text-gray-500 mt-2'>Fill out the form below and our team will get back to you within 24 hours.</p>
@@ -128,7 +128,7 @@ export default function RoofingForm() {
 
                 </form>
                 
-                <div className="flex-1 p-6 rounded-2xl bg-orange-500 w-[40vw] box-border  space-y-4 mt-6 mb-8 rounded-l-none">
+                <div className="flex-1 p-6 rounded-2xl bg-orange-500 md:w-[40vw] box-border  space-y-4 mt-6 mb-8 rounded-l-none ">
                     <h1 className='text-white text-[30px] font-extrabold tracking-tighter mb-0'>CONTACT INFO</h1>
 
                     <div className="flex flex-col gap-6 text-white">
