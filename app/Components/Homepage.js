@@ -6,6 +6,7 @@ import Beforeaftergallery from './Beforeaftergallery'
 import Link from 'next/link'
 import RoofingForm from './Formspree'
 import Testimonials from './Testimonials'
+import Faqs from './Faqs'
 
 
 const Homepage = () => {
@@ -102,6 +103,9 @@ const Homepage = () => {
                 <div className='flex justify-center'>
                     <Link href="/reviews"><button className='font-semibold px-9 py-3 bg-orange-500 text-white hover:bg-orange-600 transition cursor-pointer'>View More</button></Link>
                 </div>
+            </section>
+            <section>
+                <Faqs />
             </section>
             <section>
                 <h1 className='text-[#004099] text-[35px] font-extrabold tracking-tighter text-center mt-[80px]'>Reach Out to Us Anytime</h1>

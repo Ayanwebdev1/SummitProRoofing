@@ -3,6 +3,7 @@ import { Home, ArrowRight, Hammer, Clock, SearchCheck } from 'lucide-react'
 import Link from 'next/link'
 import Chooseus from './Chooseus'
 import Beforeaftergallery from './Beforeaftergallery'
+import Faqs from './Faqs'
 
 const Service = () => {
   return (
@@ -71,6 +72,9 @@ const Service = () => {
         <h1 className='text-[35px] text-center text-[#004099] font-extrabold ml-7 mt-[50px] tracking-tight'>See the Transformation: Before & After</h1>
         <p className='w-[60vw] text-[20px] text-gray-500 m-auto text-center mt-2'>Every roof tells a story. From worn-out and leaky to strong and beautiful, our projects speak for themselves. Explore these real transformations and see why homeowners across Denver trust SummitProRoofing for results that last.</p>
         <Beforeaftergallery />
+    </section>
+    <section>
+        <Faqs />
     </section>
 
     <section>

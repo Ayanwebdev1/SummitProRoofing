@@ -1,8 +1,11 @@
 import React from 'react'
+import Getaquote from '../Components/Getaquote'
 
 const page = () => {
   return (
-    <div>page</div>
+    <>
+<Getaquote />
+    </>
   )
 }
 
