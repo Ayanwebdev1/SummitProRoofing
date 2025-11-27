@@ -44,12 +44,12 @@ const Homepage = () => {
 
         <div className='flex gap-3 mt-4 items-center '>
             <Link href="/getaquote">
-                <button className="bg-[#e85b30] hover:bg-[#d14e28] text-white font-bold py-3 px-4 md:px-10 md:py-5 transition cursor-pointer text-sm md:text-base">
+                <button className="bg-[#e85b30] hover:bg-[#d14e28] text-white font-bold py-3 px-3 md:px-10 md:py-5 transition cursor-pointer text-sm md:text-base">
                     GET A FREE ESTIMATE
                 </button>
             </Link>
 
-            <button className="border hover:bg-white hover:text-black text-white font-bold py-3 px-6 md:px-10 md:py-5 transition cursor-pointer text-sm md:text-base">
+            <button className="border hover:bg-white hover:text-black text-white font-bold py-3 px-3 md:px-10 md:py-5 transition cursor-pointer text-sm md:text-base">
                 <a href="tel:+1837928392">CALL NOW</a>
             </button>
         </div>

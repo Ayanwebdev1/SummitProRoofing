@@ -26,8 +26,8 @@ const Navbar = () => {
         {/* Logo */}
         <Link href="/">
           <div className="flex items-center h-full gap-2 cursor-pointer" aria-label="SummitPro Roofing Home">
-            <Home className="w-8 h-8 text-white bg-orange-600 rounded-[5px] p-1" />
-            <h1 className="text-[25px] font-bold text-[#004099]">
+            <Home className="w-8 ml-[-20] h-8 text-white bg-orange-600 rounded-[5px] p-1" />
+            <h1 className="text-[25px] mr-2 font-bold text-[#004099]">
               SUMMITPRO<span className="text-[#e85b30]">ROOFING</span>
             </h1>
           </div>
