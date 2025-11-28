@@ -7,6 +7,7 @@ import Link from 'next/link'
 import RoofingForm from './Formspree'
 import Testimonials from './Testimonials'
 import Faqs from './Faqs'
+import FadeUp from './FadeUp'
 
 
 const Homepage = () => {
@@ -55,6 +56,8 @@ const Homepage = () => {
         </div>
     </div>
 </header>
+
+<FadeUp>
 
 <Servicescomponent />
 <Chooseus />
@@ -148,6 +151,7 @@ const Homepage = () => {
     </p>
     <RoofingForm />
 </section>
+</FadeUp>
 
 
             

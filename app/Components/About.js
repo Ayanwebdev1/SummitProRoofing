@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import Chooseus from './Chooseus'
+import FadeUp from './FadeUp'
 
 const About = () => {
   return (
@@ -34,7 +35,7 @@ const About = () => {
 
       </header>
 
-
+<FadeUp>
       <section className="flex flex-col md:flex-row items-center md:items-start mt-[50px]">
         {/* Left Image */}
         <div className="left m-0 md:m-10 flex justify-center w-full md:w-auto">
@@ -186,6 +187,7 @@ const About = () => {
           <Link href="/getaquote"><button className='px-9 py-4 bg-orange-500 font-semibold text-white cursor-pointer hover:bg-orange-600'>Secure My Home Now</button></Link>
         </div>
       </section>
+      </FadeUp>
       
 
 

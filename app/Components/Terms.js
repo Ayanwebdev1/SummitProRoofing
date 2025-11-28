@@ -1,8 +1,10 @@
 import React from 'react'
+import FadeUp from './FadeUp'
 
 const Terms = () => {
   return (
     <>
+    <FadeUp>
         <div className="min-h-screen bg-[#f9f9f9] text-gray-800 px-6 py-16">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-3xl font-bold text-[#004099] mb-6">Terms and Conditions</h1>
@@ -36,6 +38,7 @@ const Terms = () => {
         </p>
       </div>
     </div>
+    </FadeUp>
 
     </>
   )

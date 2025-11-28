@@ -5,10 +5,12 @@ import Chooseus from './Chooseus'
 import Beforeaftergallery from './Beforeaftergallery'
 import Faqs from './Faqs'
 import Servicescomponent from './Servicescomponent'
+import FadeUp from './FadeUp'
 
 const Service = () => {
   return (
     <>
+    <FadeUp>
     <header>
         <h1 className='text-[#004099] text-[35px] font-extrabold tracking-tighter text-center mt-[50px] '>Roofing You Can Rely On Every Shingle, Every Time</h1>
         <p className='w-[90vw] md:w-[60vw] text-[20px] text-gray-500 m-auto text-center mt-2'>Your home deserves protection you can trust. From urgent repairs to full installations, SummitProRoofing delivers expert craftsmanship with honesty and care. No shortcuts. No pressure. Just roofs built to last and homeowners who sleep easy.</p>
@@ -45,6 +47,7 @@ const Service = () => {
             <Link href="/getaquote"><button className='px-10 py-4 bg-orange-500 hover:bg-orange-600 cursor-pointer text-white font-semibold'>GET A FREE ESTIMATE</button></Link>
         </div>
     </section>
+    </FadeUp>
     </>
   )
 }

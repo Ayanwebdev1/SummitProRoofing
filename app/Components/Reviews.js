@@ -5,10 +5,12 @@ import Testimonials from './Testimonials'
 import Beforeaftergallery from './Beforeaftergallery'
 import Chooseus from './Chooseus'
 import Trustus from './Trustus'
+import FadeUp from './FadeUp'
 
 const Reviews = () => {
     return (
         <>
+        <FadeUp>
             <header className='mt-[50px] bg-[#004099] p-2 mb-10'>
                 <h1 className='text-white text-[35px] font-extrabold tracking-tighter text-center pt-8'>What Our Clients Say About <span className='text-orange-500'>Working</span> With Us</h1>
                 <div className='w-[60vw] mt-4 text-[20px] text-white/90 m-auto text-center'>Real stories. Real results. No paid reviews.</div>
@@ -36,6 +38,7 @@ const Reviews = () => {
                     <Link href="/getaquote"><button className='px-9 py-4 bg-orange-500 cursor-pointer text-white font-semibold hover:bg-orange-600'>GET A FREE QUOTE</button></Link>
                 </div>
                 </section>
+                </FadeUp>
         </>
     )
 }

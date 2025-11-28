@@ -1,10 +1,12 @@
 import React from 'react'
 import RoofingForm from './Formspree'
 import Link from 'next/link'
+import FadeUp from './FadeUp'
 
 const Contact = () => {
   return (
     <>
+    <FadeUp>
     <header>
         <h1 className='text-[#004099] text-[35px] font-extrabold tracking-tighter text-center mt-[50px]'>Let’s Fix Your Roofing Problems Together.</h1>
         <p className='w-[90vw] md:w-[60vw] text-[20px] text-gray-500 m-auto text-center mt-2'>Share your issue and we’ll walk you through the best solution, step by step.</p>
@@ -20,6 +22,7 @@ const Contact = () => {
                                 </button></Link>
                                 </div>
     </section>
+    </FadeUp>
     </>
 
   )

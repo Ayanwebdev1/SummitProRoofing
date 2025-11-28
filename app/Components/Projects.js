@@ -6,10 +6,12 @@ import Link from 'next/link'
 import Chooseus from './Chooseus'
 import Trustus from './Trustus'
 import Testimonials from './Testimonials'
+import FadeUp from './FadeUp'
 
 const Projects = () => {
     return (
         <>
+        <FadeUp>
             <header className='mt-[50px]'>
                 <h1 className='text-[#004099] text-[35px] font-extrabold tracking-tighter text-center'>Our Work, Your Peace of Mind</h1>
                 <p className='w-[90vw] md:w-[60vw] text-[20px] text-gray-500 m-auto text-center mt-2'>A collection of the roofs we’ve repaired, replaced, and restored — each one crafted with the same care we’d give our own home.</p>
@@ -105,6 +107,7 @@ const Projects = () => {
                     <Link href="/getaquote"><button className='px-9 py-4 bg-[#004099] text-white font-semibold mt-5 cursor-pointer hover:bg-[#013781] '>Get A Free Estimate</button></Link>
                 </div>
             </section>
+            </FadeUp>
 
            
         </>
