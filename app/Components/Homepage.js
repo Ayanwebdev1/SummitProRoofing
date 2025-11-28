@@ -29,16 +29,16 @@ const Homepage = () => {
 
     {/* Text / CTA */}
     <div className="absolute inset-0 flex flex-col justify-center items-start px-6 md:px-16 text-white">
-        <div className="text-white bg-orange-600 px-4 py-1 mb-4 font-extrabold rounded-lg text-sm md:text-base">
+        <div className="text-white bg-orange-600 px-5 py-1 md:px-4 md:py-1 mb-4 font-extrabold rounded-lg text-sm md:text-base">
             #1 Rated Roofing Contractor
         </div>
 
-        <h1 className="text-3xl md:text-6xl font-extrabold mb-6 max-w-full md:w-[60%] leading-tight">
+        <h1 className="text-4xl md:text-5xl font-extrabold mb-6 max-w-full md:w-[60%] leading-tight">
             BUILT STRONG TO FACE<br />
             <span className='text-orange-600 block'>ANY STORM.</span>
         </h1>
 
-        <p className="text-base md:text-2xl mb-6 max-w-full md:max-w-xl leading-relaxed">
+        <p className="text-[18px] md:text-2xl mb-6 max-w-full md:max-w-xl leading-relaxed">
             Premium roofing solutions for residential and commercial properties. With over 5 Years warranty, expert craftsmanship, and 24/7 emergency service.
         </p>
 
@@ -92,7 +92,7 @@ const Homepage = () => {
 </section>
 
 {/* REVIEWS */}
-<section className='bg-[#004099] mt-[50px] p-4 pb-10'>
+<section className='bg-[#094599] mt-[50px] p-4 pb-10'>
     <h1 className='text-center text-white font-extrabold tracking-tighter text-[28px] md:text-[35px] pt-6'>
         HEAR FROM HOMEOWNERS WHO TRUSTED <span className='text-orange-500'>SUMMITPROROOFING</span>
     </h1>
